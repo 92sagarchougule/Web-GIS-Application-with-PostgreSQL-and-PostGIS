@@ -2,7 +2,9 @@
 
 This web application allows users to draw features, collect attributes such as name and district, and perform spatial operations like Buffer, Intersect etc.
 
-!https://github.com/92sagarchougule/draw-features-with-reference-openlayers/blob/main/images/Digitize.jpg
+
+
+![Application Screenshot](https://github.com/92sagarchougule/draw-features-with-reference-openlayers/blob/main/images/Digitize.jpg "Application Screenshot")
 
 
 ## Features
