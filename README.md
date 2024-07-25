@@ -60,7 +60,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Built using Node.js, Express.js, PostgreSQL, PostGIS, Leaflet.js, and other open-source technologies.
+- Built using Python, PostgreSQL, PostGIS, OpenLayers, and other open-source technologies.
 
 ## Support
 
