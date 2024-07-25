@@ -1,6 +1,6 @@
 # Web GIS Application with PostgreSQL and PostGIS
 
-This web application allows users to draw features, collect attributes such as name and district, and perform spatial operations using PostgreSQL with PostGIS.
+This web application allows users to draw features, collect attributes such as name and district, and perform spatial operations like Buffer, Intersect etc.
 
 ## Features
 
