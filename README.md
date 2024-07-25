@@ -13,7 +13,7 @@ This web application allows users to draw features, collect attributes such as n
 - **Delete Features:** Users can delete selected features from the map.
 - **Buffer Operation:** Perform buffer operations around selected features.
 - **Intersection:** Perform intersection queries with other spatial datasets.
-- **Export Data:** Export spatial data to various formats (e.g., GeoJSON, KML).
+- **Export Data:** Export spatial data to various formats (e.g., GeoJSON).
 - **Manage Database Schema:** Add or delete columns in the PostgreSQL database.
 
 ## Technologies Used
