@@ -36,6 +36,16 @@ This web application allows users to draw features, collect attributes such as n
 	CREATE DATABASE your_database;
 	\c your_database
 	CREATE EXTENSION postgis;
+
+3. **Create Table::**
+
+   ```sql
+	CREATE TABLE your_table_name (
+    	id SERIAL PRIMARY KEY,
+    	geom geometry(Geometry,4326), -- Geometry field using EPSG:4326 (WGS 84)
+    	dist VARCHAR(255),             -- District field (adjust size as needed)
+    	name VARCHAR(255)              -- Name field (adjust size as needed)
+	);
    
    
 - Ensure PostgreSQL and PostGIS are installed.
