@@ -1,0 +1,374 @@
+ /* Ensure the map fills the screen */
+ #map {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* #saveButton{
+    position:absolute;
+    top: 100px;
+    left: 40px;
+    z-index: 100;
+} */
+.ol-popup {
+position: absolute;
+background-color: white;
+box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+padding: 15px;
+border-radius: 10px;
+border: 1px solid #cccccc;
+bottom: 12px;
+left: -50px;
+min-width: 280px;
+}
+.ol-popup:after, .ol-popup:before {
+top: 100%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+}
+.ol-popup:after {
+border-top-color: white;
+border-width: 10px;
+left: 48px;
+margin-left: -10px;
+}
+.ol-popup:before {
+border-top-color: #cccccc;
+border-width: 11px;
+left: 48px;
+margin-left: -11px;
+}
+.ol-popup-closer {
+text-decoration: none;
+position: absolute;
+top: 2px;
+right: 8px;
+background-color: #fafafa;
+}
+
+
+
+
+
+/* #name{
+
+    text-decoration: none;
+    position: absolute;
+    bottom : 1px;
+    left: 2px;
+} */
+
+
+.ol-popup-closer:after {
+content: "✖";
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #Tools-bar{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    z-index: 100;
+    padding: 5px;
+    background-color: rgb(230, 212, 248);
+    margin: 5px;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  #edit-button{
+    z-index: 100;
+    /* padding: 15px; */
+    background-color: rgb(230, 212, 248);
+    /* margin: 15px; */
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  #geoprocessing{
+    z-index: 100;
+    /* padding: 15px; */
+    background-color: rgb(230, 212, 248);
+    /* margin: 15px; */
+    border-radius: 5px;
+    align-items: center;
+  }
+
+
+  #dbtable{
+    z-index: 100;
+    /* padding: 15px; */
+    background-color: rgb(230, 212, 248);
+    /* margin: 15px; */
+    border-radius: 5px;
+    align-items: center;
+
+  }
+
+
+
+ 
+
+/* Styling for collapsible sections */
+.collapsible {
+  margin-bottom: 10px;
+}
+
+/* Default state for collapsible content (hidden) */
+.collapsible .content {
+  display: none;
+  padding: 5px;
+}
+
+/* Styling for the header (toggle button) */
+.collapsible h3 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Rotate icon when content is visible */
+.collapsible.active h3 {
+  border-bottom: none;
+}
+
+/* Show content when active class is added */
+.collapsible.active .content {
+  display: block;
+}
+
+  /* #saveButton {
+    text-decoration: none;
+    position: absolute;
+    bottom: 2px;
+    right: 8px;
+  } */
+
+  #delete-fc{
+    /* text-decoration: none;
+    position: absolute;
+    bottom: 2px;
+    right: 8px; */
+    background-color: rgb(219, 97, 97);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(219, 97, 97);
+  }
+  #start-edit{
+    background-color: #6bdb61;
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:  #6bdb61;
+  }
+
+  #stop-edit{
+    background-color: rgb(217, 219, 97);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(217, 219, 97);
+  }
+
+  #buffer{
+    background-color: rgb(233, 139, 139);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:  rgb(233, 139, 139);
+  }
+  #Intersection{
+    background-color: rgb(197, 39, 144);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(197, 39, 144);
+  }
+
+  #distance{
+    background-color: rgb(233, 139, 139);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:  rgb(233, 139, 139);
+  }
+  
+
+  #geometry{
+    background-color: rgb(160, 154, 241);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(217, 219, 97);
+    display: none;
+  }
+
+
+  #clr-fc{
+    background-color: rgb(23, 146, 70);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(23, 146, 70);
+  }
+
+
+  #refresh{
+    background-color: rgb(206, 219, 85);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(206, 219, 85);
+  }
+
+
+  #clearBuffer{
+    background-color: rgb(43, 106, 148);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(43, 106, 148);
+  }
+
+  #clearIntersectionEffects{
+    background-color: rgb(211, 223, 231);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(211, 223, 231);
+  }
+
+
+
+  #exportIntersection{
+    background-color: rgb(34, 172, 119);
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(34, 172, 119);
+  }
+
+  #buff{
+    padding: 5px;
+    align-items: center;
+    margin: 5px;
+  }
+
+  #intersct{
+    padding: 5px;
+    align-items: center;
+    margin: 5px;
+  }
+
+  #attribute{
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+    background-color: #6bdb61;
+  }
+
+
+  /* Styling for collapsible sections */
+.collapsible {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.collapsible h3 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.collapsible h3:hover {
+  background-color: #e0e0e0;
+}
+
+.collapsible .content {
+  padding: 10px;
+  display: none; /* Hide content by default */
+}
+
+/* Active state for collapsible headers */
+.collapsible h3.active {
+  background-color: #ddd;
+}
+
+/* Styling for attribute manipulation section */
+#dbtable {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#dbtable h3 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 0;
+}
+
+#dbtable select, 
+#dbtable input[type="text"],
+#dbtable input[type="number"] {
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+#dbtable select {
+  width: 120px;
+}
+
+#dbtable input[type="text"],
+#dbtable input[type="number"] {
+  width: 150px;
+}
+
+#dbtable button {
+  padding: 8px 12px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+#dbtable button:hover {
+  background-color: #0056b3;
+}
+
+#deletecolumn{
+  display: none;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw and Save Feature in OpenLayers</title>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.1.0/ol.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsts/1.6.0/jsts.min.js"></script>
+    
+       
+</head>
+<body>
+
+    <div id="Tools-bar">
+        <!-- Edit Tools Section -->
+        <div id="edit-button" class="collapsible">
+            <h3 style="text-align: center; cursor: pointer;"> Editing Tools &#x25BC; </h3>
+            <div class="content">
+                <select name="geometry" id="geometry">
+                    <!-- <option value="Select Geometry">Select Geometry</option> -->
+                    <option value="Point">Point</option>
+                    <option value="Linestring">Line</option>
+                    <option value="Polygon">Polygon</option>
+                </select>
+                <button id="refresh" onClick="window.location.reload();"> Refresh</button>
+                <button id="start-edit"> Start Edit</button>
+                <button id="stop-edit"> Stop Edit</button>
+                <button id="clr-fc"> Clear Feature</button>
+                <button id="delete-fc"> Delete Feature</button>
+            </div>
+        </div>
+    
+        <!-- Geoprocessing Tools Section -->
+        <div id="geoprocessing" class="collapsible">
+            <h3 style="text-align: center; cursor: pointer;"> Geoprocessing Tools &#x25BC; </h3>
+            <div class="content">
+                <!-- Geoprocessing tools content here -->
+                 <div id="buff"> <h3 style="text-align: center; margin: 5px;">Buffer Analysis</h3>
+                    
+                    <label for="distance">Distance in Mtrs:</label>
+                    <input type="number" id="distance" />
+                    <button id="buffer"> Buffer</button>
+                    <button id="clearBuffer"> Clear Buffer</button>
+
+                 </div>
+                
+                <div id="intersct"> 
+                    <h3 style="text-align: center; margin: 5px;">Intersect Analysis</h3>
+
+                <button id="Intersection">Intersection</button>
+                <button id="clearIntersectionEffects">Clear Intersection</button>
+                <button id="exportIntersection">export Intersection</button>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="dbtable">
+            <h3 style="text-align: center; margin: 5px;"> Attribute Manupulation </h3>
+            <select name="" id="attribute">
+                <option value="0">Select Type</option>
+                <option value="Add Attribute">Add Column</option>
+                <option value="Delete Attribute">Delete Column</option>
+            </select>
+            
+            <select name="" id="delete-attribute" style="display: none;">
+                <option value="">Select attribute to delete</option>
+            </select>
+            <button id="deletecolumn">Delete Column</button>
+
+
+        </div>
+
+    </div>
+    
+
+   
+<!-- <label class="switch">
+    <input type="checkbox">
+    <span class="slider round"></span>
+  </label> -->
+
+    
+
+    <div id="map"></div>
+    
+
+    <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <div id="popup-content"></div>
+        
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+    <script src="main.js"></script>
+    <!-- <script src="Geoprocessing.js"></script> -->
+</body>
+</html>
