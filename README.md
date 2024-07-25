@@ -28,7 +28,6 @@ This web application allows users to draw features, collect attributes such as n
    ```bash
    git clone https://github.com/your/repository.git
    cd repository
-
    
 3. **Database Setup::**
 
