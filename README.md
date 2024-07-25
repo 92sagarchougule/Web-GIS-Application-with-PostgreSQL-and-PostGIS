@@ -7,6 +7,7 @@ This web application allows users to draw features, collect attributes such as n
 ![Application Screenshot](https://github.com/92sagarchougule/draw-features-with-reference-openlayers/blob/main/images/Digitize.jpg "Application Screenshot")
 
 
+
 ## Features
 
 - **Draw Feature:** Users can draw points, lines, or polygons on the map.
@@ -18,6 +19,9 @@ This web application allows users to draw features, collect attributes such as n
 - **Intersection:** Perform intersection queries with other spatial datasets.
 - **Export Data:** Export spatial data to various formats (e.g., GeoJSON).
 - **Manage Database Schema:** Add or delete columns in the PostgreSQL database.
+
+
+![Application Screenshot](https://github.com/92sagarchougule/draw-features-with-reference-openlayers/blob/main/images/Capture.JPG "Application Screenshot")
 
 ## Technologies Used
 
