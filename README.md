@@ -46,7 +46,6 @@ This web application allows users to draw features, collect attributes such as n
     	name VARCHAR(255)              -- Name field (adjust size as needed)
 	);
    
-   
 - Ensure PostgreSQL and PostGIS are installed.
 - Create a new database and enable PostGIS extension:
 
