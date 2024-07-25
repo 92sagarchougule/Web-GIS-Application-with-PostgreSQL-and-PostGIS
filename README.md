@@ -16,7 +16,7 @@ This web application allows users to draw features, collect attributes such as n
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript (Leaflet.js for mapping library)
+- **Frontend:** HTML, CSS, JavaScript (OpenLayers.js for mapping library)
 - **Backend:** Node.js with Express.js
 - **Database:** PostgreSQL with PostGIS
 - **GIS Operations:** PostGIS for spatial queries and operations
