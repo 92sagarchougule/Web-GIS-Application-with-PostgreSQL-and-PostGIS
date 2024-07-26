@@ -88,7 +88,7 @@ For support, contact sagar4gis@gmail.com.
 
 ## Feedback
 
-Feel free to send feedback or report issues [here](https://github.com/92sagarchougule/draw-features-with-reference-openlayers/issues).
+Feel free to send feedback or report issues [here](https://github.com/92sagarchougule/Web-GIS-Application-with-PostgreSQL-and-PostGIS/issues).
 
 
 
