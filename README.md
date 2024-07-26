@@ -35,7 +35,7 @@ This web application allows users to draw features, collect attributes such as n
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/92sagarchougule/draw-features-with-reference-openlayers.git
+   git clone https://github.com/92sagarchougule/Web-GIS-Application-with-PostgreSQL-and-PostGIS.git
    cd repository
    
 3. **Database Setup::**
