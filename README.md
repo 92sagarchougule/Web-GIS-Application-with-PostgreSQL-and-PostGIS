@@ -73,7 +73,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-For support, contact sagar4gis@gmail.com.
+For support, **[contact](sagar4gis@gmail.com)**
 
 ## Roadmap
 
