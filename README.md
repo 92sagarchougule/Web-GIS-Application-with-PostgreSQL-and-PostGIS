@@ -36,7 +36,7 @@ This web application allows users to draw features, collect attributes such as n
 
    ```bash
    git clone https://github.com/92sagarchougule/Web-GIS-Application-with-PostgreSQL-and-PostGIS.git
-   cd repository
+   cd Web-GIS-Application-with-PostgreSQL-and-PostGIS
    
 3. **Database Setup::**
 
